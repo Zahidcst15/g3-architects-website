@@ -186,6 +186,18 @@
     justify-content: space-between;
   }
 
+  /* footer style */
+
+  footer{
+    text-align: center;
+    
+  }
+
+footer small{
+  background-color: rgba(255, 244, 231, 1);
+  padding: 40px 410px;
+}
+
 
 
 
@@ -240,6 +252,15 @@
 
     .sponsor{
       padding: 20px;
+    }
+
+    footer{
+      background-color: rgba(255, 244, 231, 1);
+      padding: 20px 0;
+    }
+
+    footer small{
+      padding: 0;
     }
 
 
