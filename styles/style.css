@@ -33,7 +33,11 @@
 
   main{
     max-width: 1440px;
-    margin: 130px auto;
+    margin: 0 auto;
+  }
+
+  section{
+    margin: 130px 0;
   }
 
  /* nav style */
@@ -161,6 +165,27 @@
   font-size: 1.25rem;
   }
 
+  /* sponsor part style */
+
+  .sponsor{
+    text-align: center;
+  }
+
+  .sponsor-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+
+  .sponsor-description{
+     margin: 24px 0 50px;
+  }
+
+  .sponsor-partner{
+    display: flex;
+    justify-content: space-between;
+  }
+
 
 
 
@@ -206,6 +231,15 @@
     }
     .facts{
       text-align: center;
+      padding: 20px;
+    }
+
+    .sponsor-partner{
+       flex-wrap: wrap;
+    }
+
+    .sponsor{
+      padding: 20px;
     }
 
 
@@ -244,12 +278,22 @@
     .team-content{
       text-align: center;
     }
-    
+
     .card{
       margin-top: 30px;
     }
     .facts{
       text-align: center;
+      padding: 20px;
     }
+
+    .sponsor-partner{
+      flex-wrap: wrap;
+   }
+
+   .sponsor{
+    padding: 20px;
+  }
+
 
   }
